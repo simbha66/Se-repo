@@ -29,4 +29,4 @@ elif shape == "Rectangle":
     width = st.number_input("Enter width (cm):", min_value=0.0, format="%.2f")
     if st.button("Calculate Area"):
         area = area_rectangle(length, width)
-        st.success(f"Area of Rectangle: {area:.2f} c
+        st.success(f"Area of Rectangle: {area:.2f} cm²")
