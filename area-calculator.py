@@ -30,3 +30,4 @@ elif shape == "Rectangle":
     if st.button("Calculate Area"):
         area = area_rectangle(length, width)
         st.success(f"Area of Rectangle: {area:.2f} cm²")
+
